@@ -1,0 +1,415 @@
+body {
+    background-color: rgb(255, 242, 240);
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: rgb(42, 39, 39);
+    background-color: rgba(255, 255, 255, 0.621);
+    border-radius: 70px;
+}
+
+.imges {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.mainImg {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 1000px;
+    height: 565px;
+
+}
+
+.secondImg {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 500px;
+    height: 565px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+
+}
+
+a {
+    text-decoration: none;
+    padding-left: 140px;
+    padding-top: 20px;
+    color: rgb(42, 39, 39);
+}
+
+.decorations {
+    display: flex;
+}
+
+h2 {
+    padding-top: 30px;
+    color: rgb(42, 39, 39);
+}
+
+p {
+    padding-top: 40px;
+    padding-left: 50px;
+    color: rgb(42, 39, 39);
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    background-color: rgba(235, 159, 134, 0.671);
+    border-radius: 20px;
+}
+
+.button1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+button:hover {
+    transform: scale(0.7s);
+    background-color: rgba(249, 190, 221, 0.752);
+}
+
+img {
+
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.card1 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    background-color: rgba(252, 189, 223, 0.752);
+    padding-bottom: 40px;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    color: rgb(42, 39, 39);
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    color: rgb(42, 39, 39);
+    padding-top: 90px;
+}
+
+.text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    background-color: rgba(251, 200, 227, 0.752);
+    width: 1500px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.pText {
+    width: 500px;
+    color: rgb(42, 39, 39);
+    padding-top: 20px;
+}
+
+.imgText {
+    border: 5px solid whitesmoke;
+}
+
+.buttonHome {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-items: space-around;
+    align-items: center;
+    background-color: rgba(251, 200, 227, 0.752);
+    border-radius: 20px;
+    padding: 20px;
+    width: 300px;
+}
+
+.card img {
+    width: 250px;
+    height: 290px;
+}
+
+.pCard {
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
+
+#catalog {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+
+.burger-toggle {
+    display: none;
+}
+
+.burger-icon {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+
+
+
+#advantages {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 140px;
+    padding-bottom: 150px;
+    padding-right: 40px;
+    background-color: rgba(251, 200, 227, 0.9);
+}
+
+.deliveryCard {
+    width: 500px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 30px;
+}
+
+.imgDelivery {
+    width: 30%;
+    padding-left: 160px;
+}
+
+#contacts {
+    background-color: rgba(251, 200, 227, 0.9);
+    margin-top: 100px;
+}
+
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 100px;
+    padding-bottom: 40px;
+}
+
+
+.footer-subscribe {
+    padding-right: 200px;
+}
+
+.footer-subscribe p {
+    margin-bottom: 20px;
+}
+
+.footer-subscribe .logo {
+    width: 40%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-input input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+
+
+    .mainImg {
+        width: 70%;
+        height: auto;
+    }
+
+    .secondImg {
+        width: 30%;
+        height: auto;
+    }
+
+    .card1 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 350px;
+        padding-left: 43px;
+        padding-bottom: 30px;
+        padding-right: 10px;
+    }
+
+    img {
+        width: 30%;
+        height: auto;
+    }
+
+    .footer {
+        width: 700px;
+        display: flex;
+        justify-content: start;
+    }
+
+
+    .imgText {
+        width: 40%;
+        height: auto;
+    }
+
+    .text {
+        width: 470px;
+        height: 700px;
+        display: flex;
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+
+    .pText {
+        width: 350px;
+        padding-right: 30px;
+    }
+
+    h4 {
+        display: flex;
+        color: rgb(42, 39, 39);
+        padding-top: 20px;
+    }
+
+
+    #catalog {
+        display: flex;
+        justify-content: space-between;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        justify-items: space-around;
+        align-items: center;
+        background-color: rgba(251, 200, 227, 0.752);
+        border-radius: 20px;
+        padding: 20px;
+        width: 170px;
+        height: 500px;
+    }
+
+    .card img {
+        width: 150px;
+        height: 190px;
+    }
+
+    #advantages {
+        height: 950px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        background-color: rgba(251, 200, 227, 0.9);
+        padding-top: 40px;
+    }
+
+    .deliveryCard {
+        padding-top: 100px;
+        padding-right: 40px;
+    }
+
+
+    .imgDelivery {
+        width: 20%;
+    }
+
+}
+
+@media (max-width: 1500px) {
+    .mainImg {
+        width: 70%;
+        height: auto;
+    }
+
+    .secondImg {
+        width: 30%;
+        height: auto;
+    }
+
+    nav {
+        position: absolute;
+        top: 80px;
+        width: 100%;
+        background-color: rgba(255, 242, 240, 0.95);
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 20px 0;
+        display: none;
+    }
+
+    nav a {
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    .burger-icon {
+        display: flex;
+        position: absolute;
+        left: 20px;
+        top: 20px;
+    }
+
+
+    .burger-toggle:checked+.burger-icon+nav {
+        display: flex;
+    }
+
+    header h1 {
+        text-align: center;
+        padding-top: 25px;
+        padding-bottom: 20px;
+    }
+
+    .card1 {
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 20px;
+        gap: 10px;
+    }
+
+}
